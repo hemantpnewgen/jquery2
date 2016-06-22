@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment#1</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<p id="single">This is a click Event</p>
+	<p id="double">This is a double-click Event</p>
+	<script>
+		$("#single").click(function() {
+  			$(this).hide();
+		});
+		$("#double").dblclick(function() {
+  			$(this).hide();
+		});
+</script>
+</body>
+</html>
